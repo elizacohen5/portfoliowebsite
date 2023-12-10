@@ -12,3 +12,12 @@ for (let i = 0; i < navItems.length; i++) {
         this.style.fontSize = '16px';
     })
     }
+
+function spinImage(id) {
+    
+    let image = document.getElementById(id);
+
+    image.classList.toggle('spin-animation');
+
+}
+
